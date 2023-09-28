@@ -13,8 +13,8 @@ const Footer = () => {
     return (
         <div className=' bg-NeutralGrey' >
             <div className="flex justify-between z-10 container p-0 " >
-                <Image className="-mt-20 md:-mt-32 lg:-mt-44 md:w-20" src={ Branch_1 } />
-                <Image className="-mt-20 md:-mt-32 lg:-mt-44 md:w-60" src={ earth } />
+                <Image alt="object" className="-mt-20 md:-mt-32 lg:-mt-44 md:w-20" src={ Branch_1 } />
+                <Image alt="object" className="-mt-20 md:-mt-32 lg:-mt-44 md:w-60" src={ earth } />
             </div>
             <div className=' container py-10 text-white font-lato' >
                 <div>
@@ -35,25 +35,25 @@ const Footer = () => {
                         <p className=' text-lg mb-6' >Contact us</p>
                         <div className="flex flex-col gap-y-3 text-sm" >
                             <div className=" flex gap-x-5 items-center" >
-                                <Image className="w-4" src={ phone } />
+                                <Image alt="phone_icon" className="w-4" src={ phone } />
                                 <p className=" font-bold" >+91 123456789</p>
                             </div>
                             <div className=" flex gap-x-5 items-center" >
-                                <Image className="w-4" src={ mail } />
+                                <Image alt="mail_icon" className="w-4" src={ mail } />
                                 <p className=" font-bold" >info@greenify.com</p>
                             </div>
                             <div className=" flex gap-x-5 items-center" >
-                                <Image className="w-4" src={ location } />
+                                <Image alt="location_icon" className="w-4" src={ location } />
                                 <p className=" font-bold" >102-Complex, Xyz Road City name, State, 136458</p>
                             </div>
                         </div>
                     </div>
                     <div className='mt-10 md:mt-20' >
                         <div className="flex gap-x-4" >
-                            <Image src={ facebook } />
-                            <Image src={ instagram } />
-                            <Image src={ linkedin } />
-                            <Image src={ twitter } />
+                            <Image alt="media_icon" src={ facebook } />
+                            <Image alt="media_icon" src={ instagram } />
+                            <Image alt="media_icon" src={ linkedin } />
+                            <Image alt="media_icon" src={ twitter } />
                         </div>
                         <p className="my-5 text-sm" >terms & services</p>
                         <p className="text-sm" >Greenify @ all right reserved 2023</p>
