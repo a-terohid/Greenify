@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 
 
-export const Kaoly = localFont({
+const Kaoly = localFont({
     display: 'swap',
     variable: '--font-Kaoly',
     src: [
@@ -13,7 +13,7 @@ export const Kaoly = localFont({
 })
 
 
-export const Lato = localFont({
+const Lato = localFont({
     display: 'swap',
     variable: '--font-Lato',
     src: [
@@ -34,3 +34,33 @@ export const Lato = localFont({
         }
     ]
 }) 
+
+const Montserrat = localFont({
+    display : 'swap',
+    variable: '--font-Montserrat',
+    src:[
+        {
+            path: "../../public/font/Montserrat/static/Montserrat-Regular.ttf",
+            weight : "400",
+            style: "normal",
+        },
+        {
+            path: "../../public/font/Montserrat/static/Montserrat-Bold.ttf",
+            weight : "700",
+            style: "normal",
+        },
+        {
+            path: "../../public/font/Montserrat/static/Montserrat-Light.ttf",
+            weight : "300",
+            style: "normal",
+        }
+    ]
+})
+
+
+
+export const FONTS = ` 
+                        ${ Kaoly.variable } 
+                        ${ Lato.variable } 
+                        ${ Montserrat.variable } 
+                    `

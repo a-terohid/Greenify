@@ -9,6 +9,7 @@
       "@/layout/*": ["src/components/layout/*"],
       "@/module/*": ["src/components/module/*"],
       "@/template/*": ["src/components/template/*"],
+      "@/elements/*": ["src/components/elements/*"],
     }
   }
 }

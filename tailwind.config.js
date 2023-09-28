@@ -14,7 +14,8 @@ module.exports = {
       } ,
       fontFamily: {
         kaoly: [ 'var(--font-Kaoly)' ],
-        lato : [ 'var(--font-Lato)' ]
+        lato : [ 'var(--font-Lato)' ],
+        montserrat : [ '--font-Montserrat' ]
       },
     },
     container : {

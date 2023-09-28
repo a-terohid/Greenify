@@ -1,11 +1,7 @@
-import React from 'react';
+import Homepage from '@/template/Homepage';
 
 const Home = () => {
-    return (
-        <div>
-            Greenify
-        </div>
-    );
+    return ( <Homepage /> );
 };
 
 export default Home;

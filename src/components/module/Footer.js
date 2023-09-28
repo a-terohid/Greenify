@@ -12,7 +12,7 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <div className=' bg-NeutralGrey' >
-            <div className="flex justify-between z-10 " >
+            <div className="flex justify-between z-10 container p-0 " >
                 <Image className="-mt-20 md:-mt-32 lg:-mt-44 md:w-20" src={ Branch_1 } />
                 <Image className="-mt-20 md:-mt-32 lg:-mt-44 md:w-60" src={ earth } />
             </div>

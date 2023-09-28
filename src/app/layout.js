@@ -1,5 +1,5 @@
 import Layout from '@/layout/Layout'
-import { Kaoly, Lato } from '@/utils/font'
+import { FONTS } from '@/utils/font'
 
 import './globals.css'
 
@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={` ${ Kaoly.variable } ${ Lato.variable } `} >
+    <html lang="en" className={ FONTS } >
       <body > 
         <Layout>
           {children}
