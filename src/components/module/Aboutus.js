@@ -3,7 +3,7 @@ import bannerR_Butterfly from "@/public/icons/bannerR-Butterfly.svg"
 
 const Aboutus = () => {
     return (
-        <div className='pb-52 container text-center mt-14' >
+        <div className='container text-center mt-14' >
             <div className='flex justify-end' >
                 <Image src={ bannerR_Butterfly } alt="object"  className=' md:w-16 lg:w-20' />
             </div>
