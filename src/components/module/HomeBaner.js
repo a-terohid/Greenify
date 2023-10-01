@@ -6,7 +6,7 @@ import bannerL_Butterfly from "@/public/icons/bannerL-Butterfly.svg"
 
 const HomeBaner = () => {
     return (
-        <div className='md:flex md:container md:mt-5 pb-52' >
+        <div className='md:flex md:container md:mt-5' >
             <div className=' container md:p-0 mt-5 md:mt-16' >
                 <div className='flex flex-col items-center md:items-start gap-y-6  md:gap-y-10  '>
                     <div className='hidden md:flex justify-end w-full -ml-10 -mt-20 lg:-mt-12 mb-16' >
@@ -39,6 +39,9 @@ const HomeBaner = () => {
             </div>
             <div className=' mt-5 ml-4 md:hidden' >
                 <Image alt="object"  src={ lamp } className=' -mt-24 w-1/4' />
+            </div>
+            <div className='flex items-center justify-center w-full md:hidden' >
+                <div className=' w-1/3 h-1 rounded-xl bg-gray-500 ' ></div>
             </div>
         </div>
     );
