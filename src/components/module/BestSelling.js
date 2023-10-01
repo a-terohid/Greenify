@@ -1,9 +1,18 @@
 import { bestSelling } from '@/public/data/bestSelling';
 import Image from 'next/image';
+import bigLeafL from "@/public/icons/bigLeafL.svg"
+import bigLeafR from "@/public/icons/bigLeafR.svg"
+import bannerR_Butterfly from "@/public/icons/bannerR-Butterfly.svg"
 
 const BestSelling = () => {
     return (
-        <div className='pb-52 container mt-20' >
+        <div className='pb-52 container mt-28 relative' >
+            <div className='w-full flex justify-end'>
+                <Image src={ bigLeafR } alt='icon' className='w-2/3 -z-10 -mt-56 -mr-28 absolute md:w-1/3  ' />
+            </div>
+            <div className='w-full md:flex hidden ' >
+                <Image src={ bannerR_Butterfly } alt="object"  className=' md:w-16 lg:w-20 -mb-12 -ml-6' />
+            </div>
             <div className='flex justify-center font-montserrat font-bold text-2xl lg:text-3xl text-center' >
                 <h1>Our Best-Selling Sustainable Products</h1>
             </div>
@@ -26,6 +35,12 @@ const BestSelling = () => {
                         </div>
                     </div>))
                 }
+            </div>
+            <div className=' flex items-center justify-center mt-10' >
+                <button className=' px-9 py-2 bg-NeutralGrey text-white rounded-lg border-b-4 border-PrimaryGreen' >EXPLORE MORE</button>
+            </div>
+            <div className='w-full flex justify-start'>
+                <Image src={ bigLeafL } alt='icon' className='w-2/3 -z-10 -mt-80 -ml-28 absolute md:w-1/3  ' />
             </div>
         </div>
     );
