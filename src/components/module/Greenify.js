@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Greenify = () => {
     return (
-        <div className=' container mt-14 flex flex-col items-center ' >
+        <div className=' container -mt-32 flex flex-col items-center ' >
             <div className='flex justify-center font-montserrat font-bold lg:text-3xl text-2xl' >
                 <h1>Why Choose Greenify?</h1>
             </div>

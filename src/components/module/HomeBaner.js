@@ -27,7 +27,7 @@ const HomeBaner = () => {
                     <button className=' px-9 py-2 bg-PrimaryGreen text-white rounded-lg border-b-4 border-NeutralGrey md:-mt-16' >SHOP NOW</button>
                     <div className='flex justify-between w-full container md:hidden' >
                         <Image src={ bannerL_Butterfly } alt="object"  className=' w-8 sm:w-12 sm:ml-10' />
-                        <Image src={ bannerR_Butterfly } alt="object"  className=' w-12 sm:w-16 ml-5 -mt-20 sm:-mt-48' />
+                        <Image src={ bannerR_Butterfly } alt="object"  className=' w-12 sm:w-16 -mr-2 -mt-20 sm:-mt-48' />
                     </div>
                 </div>
                 <div className=' mt-32 hidden md:flex' >
