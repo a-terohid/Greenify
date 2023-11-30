@@ -10,7 +10,7 @@ import fan from '@/public/icons/fan.svg';
 const CustomersReviews = () => {
     return (
         <div className=' container mt-5'>
-            <div className='flex justify-between' >
+            <div className='flex justify-between -mt-20' >
                 <Image src={ circle } alt='icon' className='md:w-28 lg:w-32' />
                 <Image src={ Leaf } alt='icon' className='md:w-28 lg:w-32' />
             </div>

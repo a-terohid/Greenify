@@ -13,8 +13,8 @@ const Footer = () => {
     return (
         <div className=' bg-NeutralGrey' >
             <div className="flex justify-between z-10 container p-0 " >
-                <Image alt="object" className="-mt-20 md:-mt-32 lg:-mt-44 md:w-20" src={ Branch_1 } />
-                <Image alt="object" className="-mt-20 md:-mt-32 lg:-mt-44 md:w-60" src={ earth } />
+                <Image alt="object" className="-mt-20 md:-mt-32  md:w-20 absolute left-0" src={ Branch_1 } />
+                <Image alt="object" className="-mt-20 md:-mt-32 right-5 lg:-mt-44 md:w-60 absolute lg:right-10 " src={ earth } />
             </div>
             <div className=' container py-10 text-white font-lato' >
                 <div>
