@@ -17,6 +17,9 @@ module.exports = {
         lato : [ 'var(--font-Lato)' ],
         montserrat : [ '--font-Montserrat' ]
       },
+      // backgroundImage : {
+      //   'environment-background' : "url('/public/img/en.png')"
+      // }
     },
     container : {
       center : true,
